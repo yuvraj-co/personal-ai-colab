@@ -1,0 +1,8 @@
+# Do not commit model weights, credentials, or runtime outputs
+.env
+*.safetensors
+*.gguf
+models/
+.cache/
+__pycache__/
+.ipynb_checkpoints/
